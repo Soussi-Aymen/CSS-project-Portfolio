@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+header{
+ background-color:#FFF5F5;
+	
+}
+
+.head-content{
+		display: flex;
+		justify-content:space-between;
+		 flex-direction:row;
+        align-content:flex-start;
+}
+
+
+body {
+    background-color: #CF6A6A;
+    padding: 20px;
+    font-family: Arial;
+	
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+
+    }
+}
+
+
+.head-menu{
+		background:#5b1550;
+		color: #FFFFFF;
+		display: flex;
+		justify-content:space-between;
+		 flex-direction:row;
+        align-content:flex-start;
+}
+
+.site-title{
+		color:white;
+}
+
+.botton{
+	    background-color: Transparent;
+
+}
+
+
+.content {
+   box-shadow: 0px 0px 0px 5px #FFF5F5;
+  transition: box-shadow 0.6s linear;
+  margin: 0.5em;
+  background-color:DEB0B0;
+  }
+
+.content:hover { box-shadow: 0px 0px 0px 10px #FFF5F5  }
+
+footer{
+    text-align: center;
+}
+
+
